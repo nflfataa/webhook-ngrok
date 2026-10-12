@@ -4,8 +4,8 @@ pipeline {
         IMAGE_NAME = 'nflfataa/simple-app'
         REGISTRY = 'https://index.docker.io/v1/'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
-        PATH = "C:/Program Files/Docker/Docker/resources/bin"
-        DOCKER_HOST = "unix:///var/run/docker.sock"
+        // PATH = "C:/Program Files/Docker/Docker/resources/bin"
+        // DOCKER_HOST = "unix:///var/run/docker.sock"
     }
     stages {
         stage('Checkout') {
